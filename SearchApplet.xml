@@ -1,0 +1,28 @@
+<oaf_info>
+	<oaf_server iid="OAFIID:SearchApplet_Factory" 
+		    type="exe" 
+		    location="/home/nickcharlton/Projects/gnome-search-applet/search_applet.py">
+
+		<oaf_attribute name="repo_ids" type="stringv">
+			<item value="IDL:Bonobo/GenericFactory:1.0"/>
+			<item value="IDL:Bonobo/Unknown:1.0"/>
+		</oaf_attribute>
+		<oaf_attribute name="name" type="string" value="Search Applet Factory"/>
+		<oaf_attribute name="description" type="string" value="Search Applet's factory that launches the applet"/>
+	</oaf_server>
+
+	<oaf_server iid="OAFIID:SampleApplet" 
+		    type="factory" 
+		    location="OAFIID:SampleApplet_Factory"> 
+
+		<oaf_attribute name="repo_ids" type="stringv">
+			<item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+			<item value="IDL:Bonobo/Control:1.0"/>
+			<item value="IDL:Bonobo/Unknown:1.0"/>
+		</oaf_attribute>
+		<oaf_attribute name="name" type="string" value="Search Applet"/>
+		<oaf_attribute name="description" type="string" value="Search applet's description."/>
+		<oaf_attribute name="panel:category" type="string" value="Utility"/>
+		<oaf_attribute name="panel:icon" type="string" value="gnome-applets.png"/>
+	</oaf_server>
+</oaf_info>
