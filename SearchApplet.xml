@@ -11,9 +11,9 @@
 		<oaf_attribute name="description" type="string" value="Search Applet's factory that launches the applet"/>
 	</oaf_server>
 
-	<oaf_server iid="OAFIID:SampleApplet" 
+	<oaf_server iid="OAFIID:SearchApplet" 
 		    type="factory" 
-		    location="OAFIID:SampleApplet_Factory"> 
+		    location="OAFIID:SearchApplet_Factory"> 
 
 		<oaf_attribute name="repo_ids" type="stringv">
 			<item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
