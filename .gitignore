@@ -1,0 +1,10 @@
+# vim
+*.swp
+*.swo
+~.un*
+
+# python specific
+*.py[cod]
+
+# c extensions
+.o
